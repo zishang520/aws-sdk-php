@@ -44,7 +44,7 @@ class GuzzleHandler
      */
     public function __construct(ClientInterface $client = null)
     {
-        $this->client = $client ?: new Client();
+        $this->client = $client ?: new Client(['verify' => __DIR__ . '/cacert.pem']);
     }
 
     /**

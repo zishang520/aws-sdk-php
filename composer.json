@@ -1,5 +1,5 @@
 {
-    "name": "aws/aws-sdk-php",
+    "name": "luoyy/aws-sdk-php",
     "homepage": "http://aws.amazon.com/sdkforphp",
     "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
     "keywords": ["aws","amazon","sdk","s3","ec2","dynamodb","cloud","glacier"],
@@ -11,10 +11,6 @@
             "homepage": "http://aws.amazon.com"
         }
     ],
-    "support": {
-        "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
-        "issues": "https://github.com/aws/aws-sdk-php/issues"
-    },
     "require": {
         "php": ">=5.5",
         "guzzlehttp/guzzle": "^5.3.1|^6.2.1",
